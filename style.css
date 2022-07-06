@@ -79,3 +79,51 @@ hr {
 .donate-today-section span {
     color: #B3B3B3;
 }
+
+.donate-plan-section h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.donate-plan-section p {
+    text-align: center;
+    color: #707070;
+    margin-bottom: 60px;
+}
+
+.flexible-container {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.flexible-item {
+    width: 360px;
+    height: 352px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+}
+
+.flexible-item p {
+    width: 340px;
+    text-align: justify;
+    font-size: 16px;
+    color: #707070;
+}
+
+.flexible-item img {
+    margin-top: 60px;
+}
+
+#box-one {
+    background-color: #4f9da630;
+}
+
+#box-two {
+    background-color: #ff595926;
+}
+
+#box-three {
+    background-color: #FFF4D6;
+}
