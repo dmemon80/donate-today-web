@@ -1,0 +1,39 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 150px;
+    font-size: 65px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.container p {
+    margin-bottom: 50px;
+}
+
+.donate-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.top-banner {
+    background: rgba(0, 0, 0, 0.6) url(/images/donation9.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+}
