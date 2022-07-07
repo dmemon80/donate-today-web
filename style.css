@@ -32,7 +32,7 @@ p {
 }
 
 .top-banner {
-    background: rgba(0, 0, 0, 0.6) url(/images/top-banner.jpg);
+    background: rgba(0, 0, 0, 0.6) url(images/top-banner.jpg);
     background-blend-mode: darken;
     background-size: cover;
     height: 70vh;
