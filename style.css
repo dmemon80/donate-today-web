@@ -32,7 +32,7 @@ p {
 }
 
 .top-banner {
-    background: rgba(0, 0, 0, 0.6) url(/images/donation9.jpg);
+    background: rgba(0, 0, 0, 0.6) url(/images/top-banner.jpg);
     background-blend-mode: darken;
     background-size: cover;
     height: 70vh;
@@ -75,14 +75,15 @@ h2#select-item {
     background-color: #FFEEEE;
 }
 
+.amount-text {
+    border: none;
+    outline: none;
+}
+
 hr {
     width: 33%;
     color: #DADADA;
     margin-bottom: 35px;
-}
-
-.donate-today-section span {
-    color: #B3B3B3;
 }
 
 .flexible-container {
@@ -146,4 +147,24 @@ hr {
     color: white;
     border: none;
     margin-left: -5px;
+}
+
+.footer-section {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer-section h3 {
+    font-size: 35px;
+    color: #FF5959;
+    padding-top: 40px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #D9DBE1;
+    padding-bottom: 40px;
+    margin-bottom: 0;
 }
