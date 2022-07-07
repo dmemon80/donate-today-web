@@ -23,7 +23,7 @@ p {
     color: #FFFFFF;
 }
 
-.donate-button {
+.button {
     text-decoration: none;
     background-color: #FF5959;
     padding: 10px 20px;
@@ -39,13 +39,18 @@ p {
     background-position: center;
 }
 
-.donate-today-section h1 {
+.center-text {
+    width: 700px;
+    margin: auto;
     text-align: center;
-    font-size: 45px;
 }
 
-.donate-today-section p {
-    text-align: center;
+.center-text h1 {
+    font-size: 45px;
+    color: #121212;
+}
+
+.center-text p {
     color: #707070;
     margin-bottom: 60px;
 }
@@ -78,17 +83,6 @@ hr {
 
 .donate-today-section span {
     color: #B3B3B3;
-}
-
-.donate-plan-section h1 {
-    text-align: center;
-    font-size: 45px;
-}
-
-.donate-plan-section p {
-    text-align: center;
-    color: #707070;
-    margin-bottom: 60px;
 }
 
 .flexible-container {
@@ -126,4 +120,30 @@ hr {
 
 #box-three {
     background-color: #FFF4D6;
+}
+
+.form-box {
+    display: flex;
+    background-color: #FFF4D6;
+    width: 800px;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+}
+
+.email {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+.sub-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    margin-left: -5px;
 }
